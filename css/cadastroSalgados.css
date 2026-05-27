@@ -1,0 +1,137 @@
+@import url(styleSalgados.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.area-cadastro {
+    margin: 150px auto;
+    width: 60vw;
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.area-formulario {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+}
+
+.area-formulario>div {
+    display: flex;
+    gap: 50px;
+}
+
+div {
+    width: 100%;
+    display: flex;
+}
+
+.area-endereco {
+    display: block;
+}
+
+input,
+select {
+    padding: 7px 0;
+    margin-bottom: 8px;
+}
+
+.area-botao {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#botao-cadastrar {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.titulo-campo {
+    flex-direction: column;
+}
+
+.formatacao {
+    gap: 1rem;
+}
+
+form {
+    width: 50vw;
+}
+
+.ddd,
+.numero {
+    width: 100px;
+}
+
+.cep {
+    width: 200px;
+}
+
+input,
+select {
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    font-size: 1.1em;
+
+}
+
+.erro-input{
+    border: 2px solid #ff4444 !important;
+    background-color:  #ffe6e6;
+}
+
+.sucesso-input {
+    border: 2px solid #00cc66 !important;
+}
+
+@media (max-width: 430px){
+    .area-cadastro {
+       width: 100vw;
+       margin-top: 8vh;
+       background: none;
+       color: var(--cor-principal);
+    }
+    .area-formulario{
+        width: 100vw;
+    }
+    form{
+        width: 85vw;
+
+    }
+
+    .formatacao{
+        flex-direction: column;
+    }
+    .endereco-numero, .area-contato, .cidade-cep{
+        flex-direction: row;
+    }
+    input, select {
+        border: 2px solid var(--cor-principal);
+    }
+    .cep{
+        width: 30vw;
+    }
+    #botao-cadastrar{
+        background-color: var(--cor-principal);
+        color: var(--cor-secundario);
+    }
+    .link-login{
+        color: var(--cor-principal);
+
+    }
+}
