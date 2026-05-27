@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
 
 :root {
-    --cor-principal: #3d6119;
+    --cor-principal: #57331b;
     /*#3B929C*/
-    --cor-secundario: #dcaf56;
+    --cor-secundario: #49c49b;
     /*#FFFFFF*/
-    --cor-botao: #873036;
+    --cor-botao: #e94566;
     /*E78887*/
     --largura-principal: 84vw;
     --largura-celula: 100vw;
@@ -25,7 +25,7 @@
     scroll-margin-top: 110px;
 }
 
-#bordados {
+#Salgados&Doces {
     scroll-margin-top: 110px;
 }
 
@@ -219,12 +219,12 @@ main {
     gap: 50px;
 }
 
-.bordados>a>img {
+.Salgados&Doces>a>img {
     width: 400px;
     border-radius: 20px;
 }
 
-.bordados {
+.Salgados&Doces {
     text-align: center;
 }
 
@@ -358,7 +358,7 @@ h3 {
         gap: 2.3vw;
     }
 
-    .bordados>a>img {
+    .Salgados&Doces>a>img {
         width: 200px;
     }
     #texto__rodape{
