@@ -27,7 +27,7 @@
     scroll-margin-top: 110px;
 }
 
-#Salgados&Doces {
+#bordados {
     scroll-margin-top: 110px;
 }
 
@@ -221,12 +221,12 @@ main {
     gap: 50px;
 }
 
-.Salgados&Doces>a>img {
+.bordados>a>img {
     width: 400px;
     border-radius: 20px;
 }
 
-.Salgados&Doces {
+.bordados {
     text-align: center;
 }
 
@@ -360,7 +360,7 @@ h3 {
         gap: 2.3vw;
     }
 
-    .Salgados&Doces>a>img {
+    .bordados>a>img {
         width: 200px;
     }
     #texto__rodape{
