@@ -79,7 +79,7 @@ if (FORM_CADASTRAR) {
 
         localStorage.setItem("usuarioCadastro", JSON.stringify(usuario));
         alert("Cadastro Realizado com SUCESSO!"); 
-        window.location.href = "login.html";
+        window.location.href = "loginSalgados.html";
     });
 }
 
